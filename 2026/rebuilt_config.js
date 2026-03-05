@@ -80,10 +80,6 @@ var config_data = `
       },
       "defaultValue": "x"
     },
-    { "name": "Pickup from Depot",
-      "code": "afd",
-      "type": "bool"
-    },
     { "name": "Pickup from Outpost",
       "code": "afo",
       "type": "bool"
@@ -101,15 +97,16 @@ var config_data = `
       "maxSize": 55
     },
     { "name": "Feed/Shuttle",
-      "code": "pnz",
-      "expectedMax": 250,
-      "altInc1": 10,
-      "altInc2": 5,
-      "type": "counter"
-    },
-    { "name": "Pickup from Depot",
-      "code": "tfd",
-      "type": "bool"
+      "code": "fed",
+      "type": "radio",
+      "choices": {
+        "b": "Below Average(0-25)<br>",
+        "a": "Average(25-50)(<br>",
+        "g": "Good (50-100<br>",
+        "e": "Excellent (100+)<br>",
+        "x": "Did not feed"
+      },
+      "defaultValue": "x"
     },
     { "name": "Pickup from Outpost",
       "code": "tfo",
@@ -168,8 +165,8 @@ var config_data = `
       "code": "def",
       "type": "bool"
     },
-    { "name": "Excessive Penalties",
-      "code": "pen",
+    { "name": "Shoot while moving",
+      "code": "mov",
       "type": "bool"
     },
     { "name": "Comments",
