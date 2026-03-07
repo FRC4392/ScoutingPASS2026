@@ -104,7 +104,7 @@ var config_data = `
         "b": "Low<br>",
         "a": "Medium<br>",
         "g": "High<br>",
-        "e": "Extreme<br>",
+        "e": "Extreme<br>"
       },
       "defaultValue": "a"
     },
