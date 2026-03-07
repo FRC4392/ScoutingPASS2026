@@ -98,7 +98,7 @@ var config_data = `
       "maxSize": 55
     },
     { "name": "Fuel Output",
-      "code": "FO",
+      "code": "fo",
       "type": "radio",
       "choices": {
         "b": "Low<br>",
