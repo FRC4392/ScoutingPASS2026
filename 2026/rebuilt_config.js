@@ -64,11 +64,16 @@ var config_data = `
       "maxSize": 55
     },
     { "name": "Feed/Shuttle",
-      "code": "apn",
-      "expectedMax": 60,
-      "altInc1": 10,
-      "altInc2": 5,
-      "type": "counter"
+      "code": "feda",
+      "type": "radio",
+      "choices": {
+        "b": "Below Average(0-25)<br>",
+        "a": "Average(25-50)<br>",
+        "g": "Good (50-100)<br>",
+        "e": "Excellent (100+)<br>",
+        "x": "Did not feed"
+      },
+      "defaultValue": "x"
     },
     { "name": "Climb (L1)",
       "code": "ac",
@@ -101,8 +106,8 @@ var config_data = `
       "type": "radio",
       "choices": {
         "b": "Below Average(0-25)<br>",
-        "a": "Average(25-50)(<br>",
-        "g": "Good (50-100<br>",
+        "a": "Average(25-50)<br>",
+        "g": "Good (50-100)<br>",
         "e": "Excellent (100+)<br>",
         "x": "Did not feed"
       },
