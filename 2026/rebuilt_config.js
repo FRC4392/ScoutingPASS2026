@@ -120,7 +120,7 @@ var config_data = `
       },
       "defaultValue": "x"
     },
-    { "name": "Pickup from Outpost",
+    { "name": "Pickup from Floor",
       "code": "tfo",
       "type": "bool"
     },
@@ -163,10 +163,6 @@ var config_data = `
     },
     { "name": "Died/Immobilized",
       "code": "die",
-      "type": "bool"
-    },
-    { "name": "No floor intake",
-      "code": "tip",
       "type": "bool"
     },
     { "name": "Was Defended",
