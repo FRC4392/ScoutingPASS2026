@@ -85,10 +85,6 @@ var config_data = `
       },
       "defaultValue": "x"
     },
-    { "name": "Pickup from Outpost",
-      "code": "afo",
-      "type": "bool"
-    },
     { "name": "Pickup from Neutral Zone",
       "code": "aff",
       "type": "bool"
@@ -100,6 +96,17 @@ var config_data = `
       "type": "text",
       "size": 10,
       "maxSize": 55
+    },
+    { "name": "Fuel Output",
+      "code": "FO",
+      "type": "radio",
+      "choices": {
+        "b": "Low<br>",
+        "a": "Medium<br>",
+        "g": "High<br>",
+        "e": "Extreme<br>",
+      },
+      "defaultValue": "a"
     },
     { "name": "Feed/Shuttle",
       "code": "fed",
