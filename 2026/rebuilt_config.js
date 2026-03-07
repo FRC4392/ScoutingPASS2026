@@ -95,7 +95,7 @@ var config_data = `
     }
   ],
   "teleop": [
-    { "name": "Fuel Scored",
+    { "name": "Total Fuel Scored",
       "code": "tfs",
       "type": "text",
       "size": 10,
