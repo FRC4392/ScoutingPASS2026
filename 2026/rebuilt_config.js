@@ -123,7 +123,7 @@ var config_data = `
     { "name": "Pickup from Floor",
       "code": "tfo",
       "type": "bool"
-    },
+    }
   ],
   "endgame": [
     { "name": "Climb",
