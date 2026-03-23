@@ -97,7 +97,7 @@ var config_data = `
       "size": 10,
       "maxSize": 55
     },
-     { "name": "Estimated Fouls:",
+     { "name": "Foul Count:",
       "code": "fo",
       "type": "counter"
     },
