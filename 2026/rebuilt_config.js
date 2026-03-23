@@ -59,8 +59,8 @@ var config_data = `
   "auton": [
     { "name": "Fuel Scored",
       "code": "afs",
-      "type": "level",
-      "size": 10,
+      "type": "match",
+      "max": 150,
     },
     { "name": "Feed/Shuttle",
       "code": "feda",
@@ -92,7 +92,8 @@ var config_data = `
   "teleop": [
     { "name": "Don't Reset Clicker:<br> Total Fuel Scored",
       "code": "tfs",
-      "type": "level",
+      "type": "match",
+      "max": 150,
     },
      { "name": "Foul Count:",
       "code": "fo",
