@@ -61,7 +61,7 @@ var config_data = `
       "code": "afs",
       "type": "text",
       "size": 10,
-      "maxSize": 55"
+      "maxSize": 55
     },
     { "name": "Feed/Shuttle",
       "code": "feda",
@@ -95,7 +95,7 @@ var config_data = `
       "code": "tfs",
       "type": "text",
       "size": 10,
-      "maxSize": 55"
+      "maxSize": 55
     },
      { "name": "Foul Count:",
       "code": "fo",
