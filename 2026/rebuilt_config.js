@@ -97,11 +97,9 @@ var config_data = `
       "size": 10,
       "maxSize": 55
     },
-     { "name": "Fouls:",
-      "code": "tfs",
-      "type": "text",
-      "size": 10,
-      "maxSize": 55
+     { "name": "Estimated Fouls:",
+      "code": "fo",
+      "type": "counter"
     },
     { "name": "Fuel Output",
       "code": "fo",
