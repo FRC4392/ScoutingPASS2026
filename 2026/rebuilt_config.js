@@ -93,7 +93,7 @@ var config_data = `
   "teleop": [
     { "name": "Don't Reset Clicker:<br> Total Fuel Scored",
       "code": "tfs",
-      "type": "text",
+      "type": "text"||"counter",
       "size": 10,
       "maxSize": 55
     },
