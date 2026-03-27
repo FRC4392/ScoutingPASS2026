@@ -99,8 +99,10 @@ var config_data = `
     },
      { "name": "Foul Count:",
       "code": "fo",
-      "type": "counter"
-    },
+       "expectedMax": 32,
+      "altInc1": 10,
+      "altInc2": 5,
+      "type": "counter"    },
     { "name": "Fuel Output",
       "code": "fo",
       "type": "radio",
