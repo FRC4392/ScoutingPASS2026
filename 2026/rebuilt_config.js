@@ -99,11 +99,12 @@ var config_data = `
     },
   { "name": "Foul Count:",
     "code": "afd",
-    "type": "counter",
     "defaultValue": 0,
     "expectedMax": 32,
     "altInc1": 10,
-    "altInc2": 5
+    "altInc2": 5,
+    "type": "counter"
+
   },
     { "name": "Fuel Output",
       "code": "fo",
