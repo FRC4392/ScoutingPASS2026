@@ -98,11 +98,12 @@ var config_data = `
       "maxSize": 55
     },
      { "name": "Foul Count:",
-      "code": "fo",
+      "code": "afd",
        "expectedMax": 32,
       "altInc1": 10,
       "altInc2": 5,
-      "type": "counter"    },
+      "type": "counter"   
+      },
     { "name": "Fuel Output",
       "code": "fo",
       "type": "radio",
