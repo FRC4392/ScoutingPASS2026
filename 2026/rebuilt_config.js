@@ -102,7 +102,7 @@ var config_data = `
        "expectedMax": 32,
       "altInc1": 10,
       "altInc2": 5,
-      "type": "counter"
+      "type": "counter",
       "defaultValue": 0
       },
     { "name": "Fuel Output",
