@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2026miesc",
+      "defaultValue": "2026micmp3",
       "required": "true"
     },
     { "name": "Match Level",
@@ -97,15 +97,6 @@ var config_data = `
       "size": 10,
       "maxSize": 55
     },
-  { "name": "Foul Count:",
-    "code": "afd",
-    "defaultValue": 0,
-    "expectedMax": 32,
-    "altInc1": 10,
-    "altInc2": 5,
-    "type": "counter"
-
-  },
     { "name": "Fuel Output",
       "code": "fo",
       "type": "radio",
@@ -133,6 +124,14 @@ var config_data = `
       "code": "tfo",
       "type": "bool"
     }
+    { "name": "Crossed Bump",
+      "code": "bmp",
+      "type": "bool"
+    },
+    { "name": "Crossed Trench",
+      "code": "tre",
+      "type": "bool"
+    },
   ],
   "endgame": [
     { "name": "Climb",
@@ -162,14 +161,7 @@ var config_data = `
       },
       "defaultValue": "x"
     },
-    { "name": "Crossed Bump",
-      "code": "bmp",
-      "type": "bool"
-    },
-    { "name": "Crossed Trench",
-      "code": "tre",
-      "type": "bool"
-    },
+
     { "name": "Died/Immobilized",
       "code": "die",
       "type": "bool"
