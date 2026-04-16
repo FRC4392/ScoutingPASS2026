@@ -123,7 +123,7 @@ var config_data = `
     { "name": "Pickup from Floor",
       "code": "tfo",
       "type": "bool"
-    }
+    },
     { "name": "Crossed Bump",
       "code": "bmp",
       "type": "bool"
@@ -131,7 +131,7 @@ var config_data = `
     { "name": "Crossed Trench",
       "code": "tre",
       "type": "bool"
-    },
+    }
   ],
   "endgame": [
     { "name": "Climb",
